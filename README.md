@@ -1,5 +1,5 @@
 ### Algorithm
 
-[google]: https://google.com
+[google](https://google.com)
 
 ㅁㄴㅇㅁㄴㅇㅁㄴㅇㅁㄴ
