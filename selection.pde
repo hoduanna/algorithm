@@ -1,34 +1,42 @@
-int[] list = new int[100];
+int[] list = new int[7];
 
-for(int i=0; i<list.length; i++){
-  list[i] = (int)random(1000);
-}
+void setup() {
+  for (int i = 0; i < list.length; i++) {
+    list[i] = (int)random(1000);
+  }
 
-println(list.length);
+  for (int i = 0; i < list.length; i++) {
+    print(list[i], "\t");
+  }
+  println(" ");
 
-for(int i=0; i<list.length; i++){
-  println(list[i]);
-}
-
-line(0,0,100,100);
-
-for (int i = 0; i < list.length - 1; i++) {
-    for (int j = 0; j < list.length - 1 - i; j++) {
-        if (list[j] > list[j + 1]) {
-            int temp = list[j];
-            list[j] = list[j + 1];
-            list[j + 1] = temp;
-        }
+  for (int i = 0; i < list.length - 1; i++) {
+    int minIndex = i;
+    for (int j = i + 1; j < list.length; j++) {
+      if (list[j] < list[minIndex]) {
+        minIndex = j;
+      }
     }
+    swap(i, minIndex);
+  }
+
+  for (int i = 0; i < list.length; i++) {
+    print(list[i] + "\t");
+  }
+  println(" ");
+
+  for (int i = 0; i < list.length / 2; i++) {
+    swap(i, list.length - 1 - i); // 양 끝 값 교환
+  }
+
+  for (int i = 0; i < list.length; i++) {
+    print(list[i] + "\t");
+  }
+  println(" ");
 }
 
-println(list);
-println();
-
-for (int i = 0; i < list.length / 2; i++) {
-    int temp = list[i];
-    list[i] = list[list.length - 1 - i];
-    list[list.length - 1 - i] = temp;
+void swap(int i, int j) {
+  int temp = list[i];
+  list[i] = list[j];
+  list[j] = temp;
 }
-
-println(list);
