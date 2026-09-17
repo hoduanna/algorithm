@@ -9,3 +9,11 @@
 [Homework3](./homework/InsertSorting.pde.pde)
 ![Alt homework3](./images/homework3.png)
 
+[Homework4](./homework/MergeSorting.pde.pde)
+![Alt homework3](./images/homework4.png)
+
+[Homework5](./homework/QuickSorting.pde.pde)
+![Alt homework3](./images/homework5.png)
+
+[Homework6](./homework/HeapSorting.pde.pde)
+![Alt homework3](./images/homework6.png)
