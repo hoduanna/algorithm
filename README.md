@@ -1,6 +1,6 @@
 ### Algorithm
 
-##HomeWork 1
+## Homework1
 
 Selection Sorting
 [Homework1](./homework/SelectionSorting.pde)
@@ -16,16 +16,18 @@ Insert Sorting
 
 MergeSorting
 [Homework4](./homework/MergeSorting.pde)
-![Alt homework3](./images/homework4.png)
+![Alt homework4](./images/homework4.png)
 
 QuickSorting
 [Homework5](./homework/QuickSorting.pde)
-![Alt homework3](./images/homework5.png)
+![Alt homework5](./images/homework5.png)
 
 HeapSorting
 [Homework6](./homework/HeapSorting.pde)
-![Alt homework3](./images/homework6.png)
+![Alt homework6](./images/homework6.png)
 
-#homework 2
+## Homework2
 [SortAnimation](./homework/SortAnimation.pde)
-![Alt homework1](./images/homework7.png)
+![Alt homework7](./images/homework7.gif)
+
+
