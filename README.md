@@ -30,4 +30,6 @@ HeapSorting
 [SortAnimation](./homework/SortAnimation.pde)
 ![Alt homework7](./images/homework7.gif)
 
-
+## Homework3
+[BinarySearchTree](./homework/BinarySearchTree.pde)
+![Alt homework8](./images/homework8.gif)
