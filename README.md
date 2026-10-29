@@ -33,3 +33,7 @@ HeapSorting
 ## Homework3
 [BinarySearchTree](./homework/BinarySearchTree.pde)
 ![Alt homework8](./images/homework8.gif)
+
+## Homework4
+[Postfix](./homework/Postfix.pde)
+![Alt homework9](./images/homework9.gif)
