@@ -36,4 +36,4 @@ HeapSorting
 
 ## Homework4
 [Postfix](./homework/Postfix.pde)
-![Alt homework9](./images/homework9.gif)
+![Alt homework9](./images/homework9.png)
